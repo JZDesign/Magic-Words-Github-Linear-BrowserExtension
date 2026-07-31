@@ -1,4 +1,4 @@
-# Linear PR Description
+# Linear ticket link to magic word resolver
 
 Automagically reformat your Linear ticket links into the [magic word reference](https://linear.app/docs/github#magic-words) that Linear uses to link the tickets in their system.
 
