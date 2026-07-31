@@ -1,0 +1,14 @@
+{
+  "name": "linear-pr-title-extension",
+  "version": "1.0.2",
+  "private": true,
+  "description": "A Chrome and Safari extension that adds Linear ticket numbers to GitHub PR descriptions.",
+  "scripts": {
+    "test": "node --test test/ticket.test.js test/content.test.js",
+    "build:firefox": "bash scripts/build-firefox.sh",
+    "build:safari": "./scripts/build-safari.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

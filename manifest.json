@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Linear PR Description",
+  "version": "1.0.2",
+  "description": "Adds a Linear ticket number to GitHub pull request descriptions.",
+  "icons": {
+    "48": "icons/icon.svg",
+    "128": "icons/icon.svg",
+    "256": "icons/icon.svg",
+    "512": "icons/icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "linear-pr-description@jacobzivandesign.com",
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["src/ticket.js", "src/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
