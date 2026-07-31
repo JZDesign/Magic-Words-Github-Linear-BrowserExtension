@@ -6,13 +6,13 @@ in a GitHub pull request description.
 For example, pasting this Linear URL into the description:
 
 ```text
-https://linear.app/revenuecat/issue/FUN-2262/fix-fill-height-discrepancies
+https://linear.app/your-company/issue/FUN-2262/fix-fill-height-discrepancies
 ```
 
 turns it into:
 
 ```markdown
-[linear issue FUN-2262](https://linear.app/revenuecat/issue/FUN-2262/fix-fill-height-discrepancies)
+[linear issue FUN-2262](https://linear.app/your-company/issue/FUN-2262/fix-fill-height-discrepancies)
 ```
 
 The conversion runs immediately after a Linear issue URL is pasted into a new
