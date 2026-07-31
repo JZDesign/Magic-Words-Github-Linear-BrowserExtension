@@ -1,6 +1,8 @@
 # Linear PR Description
 
-A small Chrome, Firefox, and Safari extension that formats a Linear issue link
+Automagically reformat your Linear ticket links into the [magic word reference](https://linear.app/docs/github#magic-words) that Linear uses to link the tickets in their system.
+
+This is a small Chrome, Firefox, and Safari extension that formats a Linear issue link
 in a GitHub pull request description.
 
 For example, pasting this Linear URL into the description:
